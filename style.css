@@ -1,28 +1,29 @@
+/* Gaya umum */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e9f5ec; /* Hijau muda pastel */
-  color: #1f4037; /* Hijau tua */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8f5e9; /* Hijau muda */
+  color: #2e7d32; /* Hijau tua */
 }
 
+/* Header */
 header {
-  background-color: #4caf50; /* Hijau utama */
+  background-color: #4caf50;
   color: white;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
+/* Navigasi */
 nav {
-  background-color: #388e3c;
-  padding: 10px;
-  text-align: center;
+  margin-top: 10px;
 }
 
 nav a {
   color: white;
-  text-decoration: none;
   margin: 0 15px;
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -30,24 +31,31 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Konten utama */
 main {
+  max-width: 900px;
+  margin: 30px auto;
   padding: 20px;
-  max-width: 800px;
-  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* Judul dan paragraf */
+h1, h2 {
+  color: #1b5e20;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Footer */
 footer {
   background-color: #2e7d32;
   color: white;
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-}
-
-h1, h2 {
-  color: #2e7d32;
-}
-
-p {
-  line-height: 1.6;
+  padding: 15px 10px;
+  margin-top: 40px;
 }
