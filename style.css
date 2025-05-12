@@ -31,6 +31,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Menyesuaikan gambar agar responsif */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Konten utama */
 main {
   max-width: 900px;
