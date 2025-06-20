@@ -66,3 +66,33 @@ footer {
   padding: 15px 10px;
   margin-top: 40px;
 }
+
+.gallery {
+    display: flex; /* Atau grid */
+    flex-wrap: wrap;
+    gap: 20px; /* Jarak antar gambar */
+    justify-content: center; /* Pusatkan gambar */
+}
+
+.gallery figure {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd; /* Contoh border */
+    border-radius: 5px;
+    overflow: hidden; /* Pastikan gambar tidak keluar dari figure */
+    text-align: center;
+    max-width: 300px; /* Batasi lebar setiap gambar */
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery figcaption {
+    padding: 10px;
+    font-size: 0.9em;
+    color: #555;
+    background-color: #f9f9f9;
+}
