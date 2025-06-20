@@ -41,6 +41,7 @@ header h1 {
     font-family: var(--font-primary);
     font-size: 2.5em; /* Ukuran font yang lebih besar */
     margin-bottom: 15px; /* Jarak bawah h1 */
+    color : black;
 }
 
 nav {
@@ -128,9 +129,13 @@ p br {
 
 .gallery {
     display: grid; /* Menggunakan Grid untuk kontrol yang lebih baik */
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Kolom responsif */
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* Kolom responsif */
     gap: 25px; /* Jarak antar item galeri */
     padding: 20px 0;
+}
+
+@media (min-width: 769px) {
+    .gallery {grid-template-columns: 1fr 1fr; /* Memastikan tepat 2 kolom */}
 }
 
 .gallery figure {
@@ -152,9 +157,10 @@ p br {
 
 .gallery img {
     max-width: 100%;
-    height: 200px; /* Tinggi gambar yang konsisten */
+    height: 220px; /* Tinggi gambar yang konsisten */
     object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
     display: block;
+    width: 100;
     border-bottom: 1px solid var(--border-light);
 }
 
