@@ -148,6 +148,10 @@ p br {
     text-align: center;
     box-shadow: 0 4px 15px var(--shadow-light); /* Shadow untuk setiap gambar */
     transition: transform 0.3s ease-out; /* Animasi saat hover */
+    display: flex; /* Menggunakan flexbox untuk konten figure */
+    flex-direction: column; /* Mengatur konten figure secara vertikal */
+    justify-content: space-between; /* Memastikan figcaption berada di bawah */
+    align-items: center;
 }
 
 .gallery figure:hover {
