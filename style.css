@@ -1,4 +1,3 @@
-/* Gaya umum */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@ body {
   color: #2e7d32; /* Hijau tua */
 }
 
-/* Header */
 header {
   background-color: #4caf50;
   color: white;
@@ -15,7 +13,6 @@ header {
   text-align: center;
 }
 
-/* Navigasi */
 nav {
   margin-top: 10px;
 }
@@ -31,13 +28,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Menyesuaikan gambar agar responsif */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Konten utama */
 main {
   max-width: 900px;
   margin: 30px auto;
@@ -47,8 +42,7 @@ main {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Judul dan paragraf */
-h1, h2 {
+h1, h2, h3 {
   color: #1b5e20;
 }
 
@@ -58,7 +52,6 @@ p {
   text-align: justify;
 }
 
-/* Footer */
 footer {
   background-color: #2e7d32;
   color: white;
